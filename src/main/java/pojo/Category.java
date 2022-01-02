@@ -1,6 +1,7 @@
 package pojo;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Id;
 
 public class Category {
     /**
@@ -16,9 +17,9 @@ public class Category {
 
     /**
      * 分类类型;分类得类型，
-1:一级大分类
-2:二级分类
-3:三级小分类
+        1:一级大分类
+        2:二级分类
+        3:三级小分类
      */
     private Integer type;
 
@@ -88,14 +89,14 @@ public class Category {
 
     /**
      * 获取分类类型;分类得类型，
-1:一级大分类
-2:二级分类
-3:三级小分类
+        1:一级大分类
+        2:二级分类
+        3:三级小分类
      *
      * @return type - 分类类型;分类得类型，
-1:一级大分类
-2:二级分类
-3:三级小分类
+        1:一级大分类
+        2:二级分类
+        3:三级小分类
      */
     public Integer getType() {
         return type;
@@ -103,14 +104,14 @@ public class Category {
 
     /**
      * 设置分类类型;分类得类型，
-1:一级大分类
-2:二级分类
-3:三级小分类
+        1:一级大分类
+        2:二级分类
+        3:三级小分类
      *
      * @param type 分类类型;分类得类型，
-1:一级大分类
-2:二级分类
-3:三级小分类
+        1:一级大分类
+        2:二级分类
+        3:三级小分类
      */
     public void setType(Integer type) {
         this.type = type;
