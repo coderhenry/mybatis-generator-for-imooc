@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="mapper.OrderStatusMapper">
-  <resultMap id="BaseResultMap" type="pojo.OrderStatus">
+<mapper namespace="com.foodie.backend.mapper.OrderStatusMapper">
+  <resultMap id="BaseResultMap" type="com.foodie.backend.pojo.OrderStatus">
     <!--
       WARNING - @mbg.generated
     -->

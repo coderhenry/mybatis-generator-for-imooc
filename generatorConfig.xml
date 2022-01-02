@@ -10,7 +10,7 @@
 
         <!-- 通用mapper所在目录 -->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="my.mapper.MyMapper"/>
+            <property name="mappers" value="com.foodie.backend.my.mapper.MyMapper"/>
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
@@ -21,13 +21,13 @@
         </jdbcConnection>
 
         <!-- 对应生成的pojo所在包 -->
-        <javaModelGenerator targetPackage="pojo" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.foodie.backend.pojo" targetProject="src/main/java"/>
 
 		<!-- 对应生成的mapper所在目录 -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
 		<!-- 配置mapper对应的java映射 -->
-        <javaClientGenerator targetPackage="mapper" targetProject="src/main/java" type="XMLMAPPER"/>
+        <javaClientGenerator targetPackage="com.foodie.backend.mapper" targetProject="src/main/java" type="XMLMAPPER"/>
 
         <!-- 数据库表 -->
 		<table tableName="carousel"></table>

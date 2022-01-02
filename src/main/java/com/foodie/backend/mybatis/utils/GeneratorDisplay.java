@@ -1,4 +1,4 @@
-package utils;
+package com.foodie.backend.mybatis.utils;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
